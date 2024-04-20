@@ -1,0 +1,27 @@
+{
+  "name": "@khaznatech/export-package",
+  "version": "2.0.2",
+  "scripts": {
+    "build": "ng build",
+    "pack": "cd dist/khazna-export-package && npm pack",
+    "publish": "cd dist/khazna-export-package && npm publish"
+  },
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0",
+    "file-saver": "^2.0.5",
+    "@types/file-saver": "^2.0.5",
+    "xlsx": "^0.17.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.7",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "ng-packagr": "^15.2.2"
+  },
+  "sideEffects": false
+}
